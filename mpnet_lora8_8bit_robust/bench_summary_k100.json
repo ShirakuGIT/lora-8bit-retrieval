@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-05-29T23:37:34",
+    "model_dir": "/content/exp/mpnet_lora8_8bit_robust/",
+    "base_model_name": "sentence-transformers/all-mpnet-base-v2",
+    "dataset_path": "/content/drive/MyDrive/LORA",
+    "index_samples": 100000,
+    "query_samples": 10000,
+    "recall@100": 100.0,
+    "throughput_qps (queries_encoded_and_searched/sec)": 311.00558289449657,
+    "corpus_encode_time_s": 72.12359560999903,
+    "faiss_index_build_time_s": 0.8639252419998229,
+    "total_index_build_time_s": 72.98752085199885,
+    "query_encode_time_s": 6.668475845999637,
+    "search_and_recall_calc_time_s": 25.48528778400032,
+    "gpu_peak_mem_gb": 0.930535936
+}
