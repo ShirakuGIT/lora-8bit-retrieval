@@ -1,0 +1,8 @@
+torch==2.2.2 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+transformers==4.41.2
+peft==0.11.1
+bitsandbytes==0.43.1  # Consider upgrading to 0.45.0+ for improvements
+datasets==2.19.1
+accelerate==0.27.2
+faiss-cpu
+numpy==1.26.4
